@@ -1,0 +1,19 @@
+button {
+    border: 2px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    transition: transform 150ms ease-in;
+}
+
+button.primary {
+    background: rgb(36, 209, 235);
+}
+
+button.primary:active {
+    transform: scale(0.96);
+}
+
+
+button.secondary {
+    background: rgb(235, 36, 36);
+}
