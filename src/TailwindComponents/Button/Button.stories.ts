@@ -5,10 +5,7 @@ import Button from "./Button"
 
 const meta : Meta<typeof Button> = {
     title: "Tailwind/Normal Button",
-    component : Button,
-    argTypes : {
-
-    }
+    component : Button
 }
 
 
