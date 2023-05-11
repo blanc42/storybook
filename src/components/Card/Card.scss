@@ -1,0 +1,30 @@
+.card {
+    border: 2px solid gray;
+    border-radius: 15px;
+    max-width: 200px;
+    padding: 10px;
+    transition: scale 100ms ease-in;
+    cursor: pointer;
+}
+.card:hover {
+    scale: 1.05;
+}
+
+.card img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.card .description {
+
+}
+
+.card .description h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card .description p {
+    font-size: 0.8rem;
+    font-style: italic;
+}
