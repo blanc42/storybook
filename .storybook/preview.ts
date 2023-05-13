@@ -1,6 +1,7 @@
 // .storybook/preview.js
 
 import '../src/index.css'; // replace with the name of your tailwind css file
+import '../src/storybook.css';
 import type { Preview } from "@storybook/react";
 
 const preview: Preview = {

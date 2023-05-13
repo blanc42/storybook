@@ -6,7 +6,7 @@ const meta : Meta<typeof Button> = {
     component: Button,
     argTypes: {
         variant: {
-          options: ['primary', 'secondary'],
+          // options: ['primary', 'secondary'],
           control: { type: 'radio' },
         },
         borderRadius: {
@@ -23,13 +23,19 @@ export const Primary: Story = {
     args: {
       variant : "primary"
     },
+    name : "Normal Button"
   };
 
+export const Secondary: Story = {
+  args: {
+    variant : "secondary"
+  },
+  name : "Red Button"
+};
 
-  Primary.storyName = "Normal Button"
-
-  export const Secondary: Story = {
-    args: {
-      variant : "secondary"
-    },
-  };
+export const TailwindNormal: Story = {
+  args: {
+    variant : "border-2 bg-blue-400 rounded-md"
+  },
+  name : "Tailwind Button"
+};

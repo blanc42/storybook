@@ -2,7 +2,7 @@ import {  Meta, StoryObj } from "@storybook/react";
 import Slider4 from "./Slider4";
 
 const meta : Meta<typeof Slider4> = {
-    title: "UIComponents/Carosol/Slider4",
+    title: "UICOMPONENTS/Carosol",
     component: Slider4,
 }
 
